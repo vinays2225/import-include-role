@@ -1,6 +1,6 @@
 - name: Execute role-2 tasks
-  #include_role:
-  import_role:
+  include_role:
+  #import_role:
     name: role-2
   when:  OS == "RedHat"
   tags:
@@ -9,3 +9,4 @@
     - RedHat
     - Debian
     - Ubuntu  
+#. loop only used in include role
