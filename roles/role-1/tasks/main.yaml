@@ -5,3 +5,7 @@
   when:  OS == "RedHat"
   tags:
     - role3
+  loop:
+    - RedHat
+    - Debian
+    - Ubuntu  

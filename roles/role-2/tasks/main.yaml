@@ -1,6 +1,6 @@
 - name: Execute role 2 tasks 1
   debug:
-    msg: "Executing role 2 tasks 1"
+    msg: "Executing role 2 tasks 1 {{item}} loop"
 
 - name: Execute role 2 tasks 2
   debug:
