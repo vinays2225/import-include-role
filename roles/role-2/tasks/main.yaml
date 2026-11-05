@@ -6,9 +6,9 @@
   debug:
     msg: "Executing role 2 tasks 2" 
 
-- name: Set facts
-  set_fact:
-    OS: "Ubuntu"  
+# - name: Set facts
+#   set_fact:
+#     OS: "Ubuntu"  
 
 - name: Execute role 2 tasks 3
   debug:
