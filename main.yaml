@@ -1,5 +1,5 @@
 - name: Include vs importrole
-  hosts: localhost
-  connection: localhost
+  hosts: local
+  connection: local
   roles:
     - role-1
