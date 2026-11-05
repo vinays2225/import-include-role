@@ -1,0 +1,4 @@
+- name: Execute role-2 tasks
+  include_role:
+    name: role-2
+    

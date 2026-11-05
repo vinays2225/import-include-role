@@ -1,0 +1,15 @@
+- name: Execute role 2 tasks 1
+  debug:
+    msg: "Executing role 2 tasks 1"
+
+- name: Execute role 2 tasks 2
+  debug:
+    msg: "Executing role 2 tasks 2" 
+
+- name: Execute role 2 tasks 3
+  debug:
+    msg: "Executing role 2 tasks 3"
+
+- name: Execute role 2 tasks 4
+  debug:
+    msg: "Executing role 2 tasks 4"           
