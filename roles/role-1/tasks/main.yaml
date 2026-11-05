@@ -1,4 +1,4 @@
 - name: Execute role-2 tasks
-  include_role:
+  #include_role:
+  import_role:
     name: role-2
-    
