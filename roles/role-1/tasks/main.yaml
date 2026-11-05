@@ -2,3 +2,4 @@
   #include_role:
   import_role:
     name: role-2
+  when:  ansible_facts['distribution'] == "Ubuntu"
